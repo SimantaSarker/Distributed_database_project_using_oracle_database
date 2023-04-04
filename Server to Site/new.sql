@@ -1,0 +1,1 @@
+SELECT * from Persons UNION SELECT * from persons@site)) INNER JOIN ((SELECT * from Found_addicted_people UNION SELECT * from found_addicted_people@site)) on persons.pid=found_addicted_people.pid(select * from ((SELECT * from Persons UNION SELECT * from persons@site) natural join (SELECT * from Found_addicted_people UNION SELECT * from found_addicted_people@site))
